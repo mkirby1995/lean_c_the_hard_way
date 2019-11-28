@@ -33,21 +33,21 @@ int main(int argc, char *argv[])
                 printf("%d: 'O'\n", i);
                 break;
 
-              case 'u':
-              case 'U':
-                  printf("%d: 'U'\n", i);
-                  break;
+            case 'u':
+            case 'U':
+                printf("%d: 'U'\n", i);
+                break;
 
-              case 'y':
-              case 'Y':
-                  if (i < 2) {
-                      // it's only sometimes Y
-                      printf("%d: 'Y'\n", i);
-                  }
-                  break;
+            case 'y':
+            case 'Y':
+                if (i < 2) {
+                    // it's only sometimes Y
+                    printf("%d: 'Y'\n", i);
+            }
+            break;
 
-              default:
-                  printf("%d: %c is not a vowel\n", i, letter);
+          default:
+              printf("%d: %c is not a vowel\n", i, letter);
         }
     }
 
